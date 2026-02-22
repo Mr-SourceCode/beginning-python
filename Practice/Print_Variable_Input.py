@@ -89,6 +89,7 @@ print(f"Your number {number} is {result}")
 
 # Grade Evaluator
 
+"""
 number = float(input("Please enter your score between 0-100...."))
 
 
@@ -115,3 +116,5 @@ if result == "None":
     print("Invalid score...")
 else:
     print(f"Your score is {number} and the Grade is {result}!")
+
+"""
