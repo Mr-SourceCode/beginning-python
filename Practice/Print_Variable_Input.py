@@ -185,6 +185,11 @@ print("------------------------")
 
 # Multi-Item Billing System
 
+
+
+"""
+
+
 total_items = int(input("How many items?"))
 grand_total = 0
 discount = 0
@@ -223,4 +228,52 @@ print(f"Tax (10%)   : {tax:.2f}")
 print(f"Final Total : {final_total:.2f}")
 print("-----------------------------")
 
-#print(item_price)
+"""
+
+# Challenge — Input-Controlled Program (Loop Until Exit)
+
+'''
+count = 0
+total = 0
+highest = None
+lowest = None  
+i = 0 
+average_num = 0
+while  True:
+    txt = input('Enter a number (or type "done"): ')
+    if txt == "done":
+        break
+    user_input =  float(txt)
+    if highest is None:       # set highest and lowest 
+        highest = user_input
+        lowest = user_input
+    else:
+        if user_input > highest:
+            highest = user_input
+        if user_input < lowest:
+            lowest = user_input
+    total  += user_input
+    count  +=1 
+
+if count == 0:
+    print("No numbers were entered.")
+else:
+    average_num = total / count
+
+
+print(f"-------- SUMMARY --------")
+print(f"Numbers Entered: {count}")
+print(f"Sum            : {total:.2f}")
+print(f"Average        : {average_num:.2f}")
+print(f"Highest        : {highest:.2f}")
+print(f"Lowest         : {lowest:.2f}")
+print(f"-------------------------")
+
+'''
+
+x = 25
+y = 20
+max_value = x if x > y else y
+print("Maximum value:", max_value)
+
+max_value = x if x > y else y 
