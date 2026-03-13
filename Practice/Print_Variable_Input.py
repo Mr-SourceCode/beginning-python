@@ -1,12 +1,14 @@
 # Name and Age
-'''
 
+"""
 name = input("Enter your name:")
 age = input("What is your Age?")
 
 print(f"Hello {name}! You are {age} years old.")
 
-'''
+
+
+"""
 
 # Name and Age Calender
 
@@ -270,10 +272,50 @@ print(f"Lowest         : {lowest:.2f}")
 print(f"-------------------------")
 
 '''
-
+"""
 x = 25
 y = 20
 max_value = x if x > y else y
 print("Maximum value:", max_value)
 
 max_value = x if x > y else y 
+
+"""
+
+
+"""
+mydic = {
+
+    "clss": "Honors",
+    "major": "Psychology",
+    "dob" : 1991,
+    "dob" : 1993,
+    "T/F": False,
+     "Colors" : ["Red","What","Blue"]
+}
+
+print(mydic["Colors"])
+
+"""
+
+"""
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+"""
+
+
+
+#print(x)
+"""
+thisdict["Size"] = 10
+
+
+thisdict.update({"brand":"Corolla"})
+
+print(thisdict.update({"brand":"Corolla"}))
+"""
+
